@@ -1,6 +1,10 @@
 # ansible
 
-### TODO
+### Prerequisite
+- Ansible
+- Oh my zsh ansible plugin
+
+### Proxmox VM
 ```bash
-aplaybook -i staging site.yml --user <user name>
+aplaybook -i staging proxmox-vm/site.yml --user <vm user>
 ```
