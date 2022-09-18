@@ -1,0 +1,7 @@
+- name: OS upgrade for Debian
+  import_tasks: apt.yml
+  when: ansible_facts['os_family']|lower == 'debian'
+
+- name: Install qemu-guest-agent for Debian
+  import_tasks: qemu-guest-agent.yml
+  when: ansible_facts['os_family']|lower == 'debian'

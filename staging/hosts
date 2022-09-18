@@ -1,0 +1,6 @@
+[k8s_masters]
+master-01.local
+master-02.local
+master-03.local
+
+[k8s_workers]
