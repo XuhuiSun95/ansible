@@ -1,0 +1,6 @@
+- name: Mount partition
+  ansible.posix.mount:
+    path: /mnt/sdb1
+    src: /dev/sdb1
+    fstype: ext4
+    state: mounted

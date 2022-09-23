@@ -1,0 +1,4 @@
+- name: Format partition
+  community.general.filesystem:
+    fstype: ext4
+    dev: /dev/sdb1

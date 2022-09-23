@@ -1,0 +1,6 @@
+- name: Create partition
+  community.general.parted:
+    device: /dev/sdb
+    number: 1
+    state: present
+    fs_type: ext4

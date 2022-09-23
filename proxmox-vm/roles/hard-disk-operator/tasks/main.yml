@@ -1,0 +1,11 @@
+- name: Create partition for Debian
+  import_tasks: partition.yml
+  when: ansible_facts['os_family']|lower == 'debian'
+
+- name: Format partition for Debian
+  import_tasks: format.yml
+  when: ansible_facts['os_family']|lower == 'debian'
+
+- name: Mount partition for Debian
+  import_tasks: mount.yml
+  when: ansible_facts['os_family']|lower == 'debian'
