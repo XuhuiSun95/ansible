@@ -1,5 +1,5 @@
 - hosts: local
   roles:
     - common
-    - hard-disk-operator
+    # - hard-disk-operator
   become: yes
