@@ -1,5 +1,8 @@
 # ansible
 
+**Archive in favor of [homelab](https://github.com/XuhuiSun95/homelab), the full
+stack k8s with more complete IaC support**
+
 ### Prerequisite
 - Ansible
 - Oh my zsh ansible plugin
